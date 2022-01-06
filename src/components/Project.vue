@@ -44,6 +44,8 @@
         </p>
         <div>
           <div
+            v-for="language in languages"
+            :key="language"
             class="
               inline-block
               px-3
@@ -57,39 +59,7 @@
               mr-3
             "
           >
-            HTML
-          </div>
-          <div
-            class="
-              inline-block
-              px-3
-              py-2
-              font-semibold
-              text-xs
-              dark:text-white
-              border border-blue-500
-              rounded-md
-              mt-3
-              mr-3
-            "
-          >
-            CSS3
-          </div>
-          <div
-            class="
-              inline-block
-              px-3
-              py-2
-              font-semibold
-              text-xs
-              dark:text-white
-              border border-blue-500
-              rounded-md
-              mt-3
-              mr-3
-            "
-          >
-            JavaScript
+            {{language}}
           </div>
         </div>
         <a
@@ -190,6 +160,7 @@ export default {
     preview: String,
     demo: String,
     github: String,
+    languages: Array,
   },
 };
 </script>

@@ -1,6 +1,77 @@
 {
     "projects": [
         {
+            "title": "Calculator Mobile App",
+            "description": "Functioning calculator App in Flutter/Dart with light and dark mode toggle switch. Shared Preferences keeps the users dark or light mode selection even after the app closes.",
+            "preview": "flutter-calculator.jpg",
+            "languages": [
+                "Dart","Flutter"
+            ],
+            "github": "https://github.com/johnuberbacher/flutter_calculator"
+            
+        },
+        {
+            "title": "Vue Online Chat Client",
+            "description": "Vue Chat webapp built with VueJS 3, TailwindCSS and Firebase for Google and GitHub authentication, and realtime firestore database. Uses VueRouter to redirect to Chat screen when logged in.",
+            "preview": "vue-chat.png",
+            "languages": [
+                "Vue JS",
+                "CSS3",
+                "Firebase"
+            ],
+            "demo": "https://vue-chat-johnuberbacher.netlify.app/",
+            "github": "https://github.com/johnuberbacher/vue-chat"
+            
+        },
+        {
+            "title": "Flutter Pokédex Mobile App",
+            "description": "Pokédex Index App built using Dart and Flutter. View Pokemon sprites, pokedex entries, stats, evolutions and type advantages/weaknesses in battle.",
+            "preview": "pokedex.png",
+            "languages": [
+                "Dart",
+                "Flutter"
+            ],
+            "demo": "",
+            "github": "https://github.com/johnuberbacher/pokedex"
+            
+        },
+        {
+            "title": "Amiibo Tracker",
+            "description": "Catalog the Amiibo you've collected! Vue project built with Vue and BootstrapVue. Loads all Amiibo data from AmiiboApi.",
+            "preview": "amiibo-tracker.png",
+            "languages": [
+                "Vue JS",
+                "CSS3"
+            ],
+            "demo": "https://amiibo-tracker.netlify.app/",
+            "github": "https://github.com/johnuberbacher/amiibo-tracker"
+            
+        },
+        {
+            "title": "johnuberbacher.com",
+            "description": "This website was built from the ground up with Vue JS and Tailwind CSS. Projects are passed in as components and are automatically generated with JSON. Design by John Uberbacher.",
+            "preview": "johnuberbacher.png",
+            "languages": [
+                "Vue JS",
+                "Tailwind CSS"
+            ],
+            "demo": "https://johnuberbacher.com/",
+            "github": "https://github.com/johnuberbacher/johnuberbacher.com"
+            
+        },
+        {
+            "title": "Vue Compound Interest Calculator",
+            "description": "Single Page VueJS Application. Enter initial principal amount, interest rate, time duration (in months or years), cycles year/month that the interest compounds. Built using Vue2 and TailwindCSS.            ",
+            "preview": "vue-compound-interest.png",
+            "languages": [
+                "Vue JS",
+                "Tailwind CSS"
+            ],
+            "demo": "https://vue-js-compound-interest-calculator.netlify.app/",
+            "github": "https://github.com/johnuberbacher/vue-compound-interest-calculator"
+            
+        },
+        {
             "title": "",
             "description": "",
             "preview": "",
