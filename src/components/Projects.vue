@@ -68,10 +68,10 @@
       />
     </svg>
     <div class="grid grid-cols-1 relative">
-      <h5 class="text-blue-500 font-bold text-center">Development & Design</h5>
-      <h3 class="font-semibold mb-10 lg:mb-20 text-center">
+      <h3 class="text-blue-500 font-bold mb-3 text-center text-xl lg:text-xl">Development & Design</h3>
+      <h2 class="font-semibold mb-10 lg:mb-20 text-center text-3xl lg:text-4xl">
         My Favorite Projects
-      </h3>
+      </h2>
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-1 gap-5 md:gap-10 pb-10">
       <Project

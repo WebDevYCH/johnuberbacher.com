@@ -16,7 +16,7 @@
             "preview": "vue-chat.png",
             "languages": [
                 "Vue JS",
-                "CSS3",
+                "Tailwind CSS",
                 "Firebase"
             ],
             "demo": "https://vue-chat-johnuberbacher.netlify.app/",
@@ -41,10 +41,22 @@
             "preview": "amiibo-tracker.png",
             "languages": [
                 "Vue JS",
-                "CSS3"
+                "Bootstrap Vue"
             ],
             "demo": "https://amiibo-tracker.netlify.app/",
             "github": "https://github.com/johnuberbacher/amiibo-tracker"
+            
+        },
+        {
+            "title": "React Invoice Generator",
+            "description": "An Invoice creator project built with React. Add itemized items, configure quantity, prices, tax rates and discounts. Download Invoice as PDFs to your device. Uses jspdf-react to capture the data from the modal and covert it from canvas -> pdf.            ",
+            "preview": "invoice-generator.png",
+            "languages": [
+                "React JS",
+                "Bootstrap 5"
+            ],
+            "demo": "https://invoice-generator-react.netlify.app/",
+            "github": "https://github.com/johnuberbacher/invoice-generator"
             
         },
         {
@@ -69,18 +81,6 @@
             ],
             "demo": "https://vue-js-compound-interest-calculator.netlify.app/",
             "github": "https://github.com/johnuberbacher/vue-compound-interest-calculator"
-            
-        },
-        {
-            "title": "",
-            "description": "",
-            "preview": "",
-            "languages": [
-                "",
-                ""
-            ],
-            "demo": "",
-            "github": ""
             
         }
     ]
