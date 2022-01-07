@@ -15,6 +15,7 @@
         "
       >
         <a
+          aria-label="Visit John Uberbacher on LinkedIn"
           class="
             fill-current
             text-blue-500
@@ -33,12 +34,13 @@
             /></svg
         ></a>
         <a
+          aria-label="Visit John Uberbacher on GitHub"
           class="
             fill-current
             text-blue-500
             dark:text-white dark:hover:text-blue-500
           "
-          href="https://www.linkedin.com/in/johnuberbacher"
+          href="https://github.com/johnuberbacher"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -55,7 +57,7 @@
       </div>
       <div class="text-center lg:text-right">
         <div class="text-gray-600 dark:text-gray-400">
-          Site by John Uberbacher © 2002
+          Site by John Uberbacher © 2022
         </div>
       </div>
     </div>

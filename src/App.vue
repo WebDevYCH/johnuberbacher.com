@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="bg-gray-50 dark:bg-gray-900 dark:text-white">
-    <Home msg="Welcome to Your Vue.js App"/>
+    <Home/>
   </div>
 </template>
 

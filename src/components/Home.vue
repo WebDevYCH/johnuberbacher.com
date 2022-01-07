@@ -21,6 +21,7 @@
           shadow-lg
           hover:shadow-md
         "
+        aria-label="Toggle Theme"
         @click="toggle"
       >
         <svg
@@ -87,7 +88,13 @@ export default {
     },
   },
   mounted() {
-    this.toggle();
+    if (localStorage.theme === "dark") {
+      this.themeMode = "dark";
+      document.documentElement.classList.add("dark");
+    } else {
+      this.themeMode = "light";
+      document.documentElement.classList.remove("dark");
+    }
   },
 };
 </script>

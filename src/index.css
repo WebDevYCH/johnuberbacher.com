@@ -1,12 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
 @layer base {
     h1 {
       @apply text-6xl;
-      font-family: Monaco,Consolas,Lucida Console,monospace;
     }
     h2 {
       @apply text-5xl;

@@ -30,12 +30,12 @@
       class="grid grid-cols-1 lg:grid-cols-2 flex items-center justify-center relative"
     >
       <div class="pt-10 pb-20 lg:py-36 xl:py-48 text-center lg:text-left order-2 lg:order-1">
-        <h5 class="mb-6 text-blue-500 font-bold">Hey, I'm John Uberbacher</h5>
-        <h3 class="mb-6 font-medium text-2xl lg:text-4xl">
+        <h1 class="mb-6 text-blue-500 font-bold text-3xl lg:text-xl">Hey, I'm {&nbsp;<span class="text-black dark:text-white">John&nbsp;Uberbacher</span>&nbsp;}</h1>
+        <h3 class="mb-6 font-medium text-xl lg:text-4xl">
           I am a self-motivated individual with a strong interest in development
           and design.
         </h3>
-        <h3 class="font-medium text-2xl lg:text-4xl">
+        <h3 class="font-medium text-xl lg:text-4xl">
           In short; I work to make the internet a better experience.
         </h3>
         <a
@@ -120,7 +120,7 @@
         </a>
       </div>
       <div class="flex items-center justify-center relative order-1 lg:order-2 pt-10 lg:pt-0">
-        <img src="@/assets/img/johnuberbacher.png" class="w-full z-10 max-w-sm lg:max-w-2xl mx-auto" />
+        <img src="@/assets/img/johnuberbacher.png" alt="John Uberbacher - Developer" class="w-full z-10 max-w-sm lg:max-w-2xl mx-auto" />
       </div>
     </div>
   </div>
