@@ -120,7 +120,11 @@
         </a>
       </div>
       <div class="flex items-center justify-center relative order-1 lg:order-2 pt-10 lg:pt-0">
-        <img src="@/assets/img/johnuberbacher.png" alt="John Uberbacher - Developer" class="w-full z-10 max-w-sm lg:max-w-2xl mx-auto" />
+        <picture class="block">
+            <source type="image/webp" srcset="@/assets/img/webp/johnuberbacher.webp" alt="John Uberbacher - Developer" class="w-full z-10 max-w-sm lg:max-w-2xl mx-auto"/>
+            <source type="image/png" srcset="@/assets/img/png/johnuberbacher.png" alt="John Uberbacher - Developer" class="w-full z-10 max-w-sm lg:max-w-2xl mx-auto"/>
+            <img src="@/assets/img/png/johnuberbacher.png" alt="John Uberbacher - Developer" class="w-full z-10 max-w-sm lg:max-w-2xl mx-auto" />
+        </picture>
       </div>
     </div>
   </div>

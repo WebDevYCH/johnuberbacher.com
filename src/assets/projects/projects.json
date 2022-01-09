@@ -3,7 +3,7 @@
         {
             "title": "Calculator Mobile App",
             "description": "Functioning calculator App in Flutter/Dart with light and dark mode toggle switch. Shared Preferences keeps the users dark or light mode selection even after the app closes.",
-            "preview": "flutter-calculator.jpg",
+            "preview": "flutter-calculator",
             "languages": [
                 "Dart","Flutter"
             ],
@@ -13,7 +13,7 @@
         {
             "title": "Vue Online Chat Client",
             "description": "Vue Chat webapp built with VueJS 3, TailwindCSS and Firebase for Google and GitHub authentication, and realtime firestore database. Uses VueRouter to redirect to Chat screen when logged in.",
-            "preview": "vue-chat.png",
+            "preview": "vue-chat",
             "languages": [
                 "Vue JS",
                 "Tailwind CSS",
@@ -26,7 +26,7 @@
         {
             "title": "Flutter Pokédex Mobile App",
             "description": "Pokédex Index App built using Dart and Flutter. View Pokemon sprites, pokedex entries, stats, evolutions and type advantages/weaknesses in battle.",
-            "preview": "pokedex.png",
+            "preview": "pokedex",
             "languages": [
                 "Dart",
                 "Flutter"
@@ -38,7 +38,7 @@
         {
             "title": "Amiibo Tracker",
             "description": "Catalog the Amiibo you've collected! Vue project built with Vue and BootstrapVue. Loads all Amiibo data from AmiiboApi.",
-            "preview": "amiibo-tracker.png",
+            "preview": "amiibo-tracker",
             "languages": [
                 "Vue JS",
                 "Bootstrap Vue"
@@ -50,7 +50,7 @@
         {
             "title": "React Invoice Generator",
             "description": "An Invoice creator project built with React. Add itemized items, configure quantity, prices, tax rates and discounts. Download Invoice as PDFs to your device. Uses jspdf-react to capture the data from the modal and covert it from canvas -> pdf.            ",
-            "preview": "invoice-generator.png",
+            "preview": "invoice-generator",
             "languages": [
                 "React JS",
                 "Bootstrap 5"
@@ -62,7 +62,7 @@
         {
             "title": "johnuberbacher.com",
             "description": "This website was built from the ground up with Vue JS and Tailwind CSS. Projects are passed in as components and are automatically generated with JSON. Design by John Uberbacher.",
-            "preview": "johnuberbacher.png",
+            "preview": "johnuberbacherwebsite",
             "languages": [
                 "Vue JS",
                 "Tailwind CSS"
@@ -74,7 +74,7 @@
         {
             "title": "Vue Compound Interest Calculator",
             "description": "Single Page VueJS Application. Enter initial principal amount, interest rate, time duration (in months or years), cycles year/month that the interest compounds. Built using Vue2 and TailwindCSS.            ",
-            "preview": "vue-compound-interest.png",
+            "preview": "vue-compound-interest",
             "languages": [
                 "Vue JS",
                 "Tailwind CSS"
