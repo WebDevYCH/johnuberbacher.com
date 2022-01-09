@@ -28,14 +28,11 @@
           dark:border-gray-700
         "
       >
-        <div
-          class="bg-cover bg-center bg-no-repeat w-full h-full"
-          style="min-height: 150px"
-          :style="{
-            backgroundImage: `url(${require('@/assets/img/projects/' +
-              preview)})`,
-          }"
-        ></div>
+       <picture class="h-full w-full">
+            <source :srcset="require('@/assets/img/webp/' + preview + '.webp')" :alt="title + ' - John Uberbacher'" type="image/webp" class="h-full w-auto object-cover">
+            <source :srcset="require('@/assets/img/png/' + preview + '.png')" :alt="title + ' - John Uberbacher'" type="image/png" class="h-full w-auto object-cover">
+            <img :src="require('@/assets/img/png/' + preview + '.png')" :alt="title + ' - John Uberbacher'" class="h-full w-auto object-cover">
+        </picture>
       </div>
       <div class="col-span-2 p-5 md:p-7 lg:p-10">
         <h5 class="mb-4 font-medium dark:text-white">{{ title }}</h5>
@@ -168,11 +165,11 @@ export default {
 .bg-overlay {
   position: relative;
 }
-.bg-overlay > div {
+.bg-overlay > picture {
   transition: 0.3s filter;
   filter: grayscale(100%);
 }
-.project:hover .bg-overlay div {
+.project:hover .bg-overlay picture {
   filter: none;
 }
 </style>
