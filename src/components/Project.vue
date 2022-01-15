@@ -28,7 +28,7 @@
           dark:border-gray-700
         "
       >
-       <picture class="h-full w-full">
+       <picture class="flex h-full w-full">
             <source :srcset="require('@/assets/img/webp/' + preview + '.webp')" :alt="title + ' - John Uberbacher'" type="image/webp" class="h-full w-auto object-cover">
             <source :srcset="require('@/assets/img/png/' + preview + '.png')" :alt="title + ' - John Uberbacher'" type="image/png" class="h-full w-auto object-cover">
             <img :src="require('@/assets/img/png/' + preview + '.png')" :alt="title + ' - John Uberbacher'" class="h-full w-auto object-cover">
