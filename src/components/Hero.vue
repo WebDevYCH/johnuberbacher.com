@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto relative">
+  <div class="container mx-auto relative z-1">
   
     <svg
       data-v-469af010=""
