@@ -105,7 +105,6 @@ export default {
   },
   mounted() {
     this.projects = jsonProjects["projects"];
-    console.log(this.projects["projects"]);
   },
 };
 </script>
