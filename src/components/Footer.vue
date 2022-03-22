@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto relative py-5 text-sm font-medium">
+  <div class="container mx-auto relative z-20 py-5 text-sm font-medium">
     <div
       class="grid grid-cols-1 lg:grid-cols-2 flex items-center justify-center"
     >

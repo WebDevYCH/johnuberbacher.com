@@ -60,6 +60,17 @@
             
         },
         {
+            "title": "vue-95",
+            "description": "Recreation of the Windows 95 Operating System built with Vue 3 JS.",
+            "preview": "vue95",
+            "languages": [
+                "Vue JS"
+            ],
+            "demo": "https://johnuberbacher.com/vue95",
+            "github": "https://github.com/johnuberbacher/vue-95"
+            
+        },
+        {
             "title": "johnuberbacher.com",
             "description": "This website was built from the ground up with Vue JS and Tailwind CSS. Projects are passed in as components and are automatically generated with JSON. Design by John Uberbacher.",
             "preview": "johnuberbacherwebsite",

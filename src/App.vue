@@ -1,24 +1,24 @@
 <template>
   <div id="app" class="bg-gray-50 dark:bg-gray-900 dark:text-white">
-    <Home/>
+    <Home />
   </div>
 </template>
 
 <script>
-import Home from './components/Home.vue'
+import Home from "./components/Home.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Home
-  }
-}
+    Home,
+  },
+};
 </script>
 
-<style>
-@media (min-width: 1280px) {
-  .container {
-  max-width: 1024px!important;
+<style lang="scss">
+.container {
+  @media (min-width: 1280px) {
+    max-width: 1024px !important;
   }
 }
 .title-gradient {

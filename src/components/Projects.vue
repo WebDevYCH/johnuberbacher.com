@@ -1,6 +1,6 @@
 
 <template>
-  <div class="container mx-auto relative">
+  <div class="container mx-auto relative z-10">
     <svg
       viewBox="0 0 200 200"
       xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +68,9 @@
       />
     </svg>
     <div class="grid grid-cols-1 relative">
-      <h3 class="text-blue-500 font-bold mb-3 text-center text-xl lg:text-xl">Development & Design</h3>
+      <h3 class="text-blue-500 font-bold mb-3 text-center text-xl lg:text-xl">
+        Development & Design
+      </h3>
       <h2 class="font-semibold mb-10 lg:mb-20 text-center text-3xl lg:text-4xl">
         My Favorite Projects
       </h2>
@@ -94,16 +96,16 @@ import Project from "./Project.vue";
 export default {
   name: "Hero",
   components: {
-      Project
+    Project,
   },
   data() {
-      return {
-          projects: []
-      }
+    return {
+      projects: [],
+    };
   },
   mounted() {
-    this.projects = jsonProjects['projects'];
-    console.log(this.projects['projects']);
-  }
+    this.projects = jsonProjects["projects"];
+    console.log(this.projects["projects"]);
+  },
 };
 </script>
