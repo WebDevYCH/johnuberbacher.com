@@ -28,14 +28,28 @@
           dark:border-gray-700
         "
       >
-       <picture class="flex h-full w-full">
-            <source :srcset="require('@/assets/img/webp/' + preview + '.webp')" :alt="title + ' - John Uberbacher'" type="image/webp" class="h-full w-auto object-cover">
-            <source :srcset="require('@/assets/img/png/' + preview + '.png')" :alt="title + ' - John Uberbacher'" type="image/png" class="h-full w-auto object-cover">
-            <img :src="require('@/assets/img/png/' + preview + '.png')" :alt="title + ' - John Uberbacher'" class="h-full w-auto object-cover">
+        <picture class="flex h-full w-full">
+          <source
+            :srcset="require('@/assets/img/webp/' + preview + '.webp')"
+            :alt="title + ' - John Uberbacher'"
+            type="image/webp"
+            class="h-full w-auto object-cover"
+          />
+          <source
+            :srcset="require('@/assets/img/png/' + preview + '.png')"
+            :alt="title + ' - John Uberbacher'"
+            type="image/png"
+            class="h-full w-auto object-cover"
+          />
+          <img
+            :src="require('@/assets/img/png/' + preview + '.png')"
+            :alt="title + ' - John Uberbacher'"
+            class="h-full w-auto object-cover"
+          />
         </picture>
       </div>
       <div class="col-span-2 p-5 md:p-7 lg:p-10">
-        <h5 class="mb-4 font-medium dark:text-white">{{ title }}</h5>
+        <h5 class="mb-4 font-semibold dark:text-white">{{ title }}</h5>
         <p class="dark:text-white">
           {{ description }}
         </p>
@@ -56,7 +70,7 @@
               mr-3
             "
           >
-            {{language}}
+            {{ language }}
           </div>
         </div>
         <a
@@ -71,7 +85,7 @@
             pl-4
             pr-3
             py-2
-            font-semibold
+            font-bold
             text-sm
             bg-blue-500
             hover:bg-blue-400
@@ -113,7 +127,7 @@
             pl-4
             pr-3
             py-2
-            font-semibold
+            font-bold
             text-sm
             bg-blue-500
             hover:bg-blue-400
@@ -161,15 +175,32 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped lang="scss">
 .bg-overlay {
   position: relative;
 }
-.bg-overlay > picture {
-  transition: 0.3s filter;
-  filter: grayscale(100%);
+.bg-overlay {
+  @media (max-width: 767px) {
+    height: 200px;
+  }
+  picture {
+    height: 100%;
+    width: 100%;
+    transition: 0.3s filter;
+    filter: grayscale(100%);
+    img {
+        width: 100%;
+        height: 100%;
+    }
+  }
 }
-.project:hover .bg-overlay picture {
-  filter: none;
+.project {
+  &:hover {
+    .bg-overlay {
+      picture {
+        filter: none;
+      }
+    }
+  }
 }
 </style>

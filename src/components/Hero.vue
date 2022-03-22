@@ -1,6 +1,5 @@
 <template>
-  <div class="container mx-auto relative z-1">
-  
+  <div class="container mx-auto relative z-20">
     <svg
       data-v-469af010=""
       viewBox="0 0 200 200"
@@ -27,15 +26,37 @@
       ></path>
     </svg>
     <div
-      class="grid grid-cols-1 lg:grid-cols-2 flex items-center justify-center relative"
+      class="
+        grid grid-cols-1
+        lg:grid-cols-2
+        flex
+        items-center
+        justify-center
+        relative
+      "
     >
-      <div class="pt-10 pb-20 lg:py-36 xl:py-48 text-center lg:text-left order-2 lg:order-1">
-        <h1 class="mb-6 text-blue-500 font-bold text-3xl lg:text-xl">Hey, I'm {&nbsp;<span class="text-black dark:text-white">John&nbsp;Uberbacher</span>&nbsp;}</h1>
-        <h3 class="mb-6 font-medium text-xl lg:text-4xl">
+      <div
+        class="
+          pt-10
+          pb-20
+          lg:py-36
+          xl:py-48
+          text-center
+          lg:text-left
+          order-2
+          lg:order-1
+        "
+      >
+        <h1 class="mb-6 text-blue-500 font-bold text-3xl lg:text-xl">
+          Hey, I'm {&nbsp;<span class="text-black dark:text-white"
+            >John&nbsp;Uberbacher</span
+          >&nbsp;}
+        </h1>
+        <h3 class="mb-6 font-semibold text-xl lg:text-4xl">
           I am a self-motivated individual with a strong interest in development
           and design.
         </h3>
-        <h3 class="font-medium text-xl lg:text-4xl">
+        <h3 class="font-semibold text-xl lg:text-4xl">
           In short; I work to make the internet a better experience.
         </h3>
         <a
@@ -49,7 +70,7 @@
             pl-5
             pr-4
             py-3
-            font-semibold
+            font-bold
             text-sm
             bg-blue-500
             hover:bg-blue-400
@@ -88,7 +109,7 @@
             pl-5
             pr-4
             py-3
-            font-semibold
+            font-bold
             text-sm
             bg-blue-500
             hover:bg-blue-400
@@ -119,11 +140,36 @@
           </svg>
         </a>
       </div>
-      <div class="flex items-center justify-center relative order-1 lg:order-2 pt-10 lg:pt-0">
+      <div
+        class="
+          flex
+          items-center
+          justify-center
+          relative
+          order-1
+          lg:order-2
+          pt-10
+          lg:pt-0
+        "
+      >
         <picture class="block">
-            <source type="image/webp" srcset="@/assets/img/webp/johnuberbacher.webp" alt="John Uberbacher - Developer" class="w-full z-10 max-w-sm lg:max-w-2xl mx-auto"/>
-            <source type="image/png" srcset="@/assets/img/png/johnuberbacher.png" alt="John Uberbacher - Developer" class="w-full z-10 max-w-sm lg:max-w-2xl mx-auto"/>
-            <img src="@/assets/img/png/johnuberbacher.png" alt="John Uberbacher - Developer" class="w-full z-10 max-w-sm lg:max-w-2xl mx-auto" />
+          <source
+            type="image/webp"
+            srcset="@/assets/img/webp/johnuberbacher.webp"
+            alt="John Uberbacher - Developer"
+            class="w-full z-10 max-w-sm lg:max-w-2xl mx-auto"
+          />
+          <source
+            type="image/png"
+            srcset="@/assets/img/png/johnuberbacher.png"
+            alt="John Uberbacher - Developer"
+            class="w-full z-10 max-w-sm lg:max-w-2xl mx-auto"
+          />
+          <img
+            src="@/assets/img/png/johnuberbacher.png"
+            alt="John Uberbacher - Developer"
+            class="w-full z-10 max-w-sm lg:max-w-2xl mx-auto"
+          />
         </picture>
       </div>
     </div>
